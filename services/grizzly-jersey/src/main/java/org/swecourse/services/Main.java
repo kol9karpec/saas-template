@@ -18,7 +18,7 @@ import com.owlike.genson.ext.jaxrs.GensonJsonConverter;
  */
 public class Main {
 
-  private static final Logger logger = Logger.getLogger(Main.class);
+  //private static final Logger logger = Logger.getLogger(Main.class);
   //
 
   // Base URI the Grizzly HTTP server will listen on
@@ -29,7 +29,7 @@ public class Main {
   private static final Optional < String > lstn;
   private static final Optional < String > port;
 
-  //public static Integer i = new Integer(123);
+  public static Integer i = new Integer(123);
   
   static {
     PROTOCOL = "http://";
